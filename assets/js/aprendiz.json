@@ -1,0 +1,25 @@
+[{
+    "id":123,
+    "first":"Juan",
+    "last":"Perez",
+    "handle":"juan@gmail.com",
+    "Estado":false
+},
+{
+    "id":321,
+    "first":"Luis",
+    "last":"Ramirez",
+    "handle":"RamiroLuis@gmail.com"
+},
+{
+    "id":007,
+    "first":"James",
+    "last":"Bond",
+    "handle":"007@gmail.com"
+},
+{
+    "id":01,
+    "first":"Paul",
+    "last":"Paraco",
+    "handle":"AmoLaGuerrilla@gmail.com"
+}]

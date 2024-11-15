@@ -1,5 +1,5 @@
 //let datos=[9,"Juan","Arias","walo@gmail.com"]
-let datos=[{
+/* let datos=[{
     id:123,
     first:"Juan",
     last:"Perez",
@@ -23,7 +23,7 @@ let datos=[{
     last:"Paraco",
     handle:"AmoLaGuerrilla@gmail.com"
 }]
-
+ */
 //capturar elemento HTML a interactuar
 let mitabla= document.getElementById("mitabla")
 for (let i = 0; i < datos.length; i++) {

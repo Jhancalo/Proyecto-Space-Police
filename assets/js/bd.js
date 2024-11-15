@@ -6,7 +6,7 @@ const connection = mysql.createConnection({
 host: 'localhost',
 user: 'root',
 port: 3300,
-database: 'interpolice'
+database: 'sena'
 });
 
  // Conexión a la base de datos

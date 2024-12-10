@@ -6,15 +6,11 @@ const mysql = require("mysql2"); // principio de inmutabilidad
 // cadena de conexion o string de conexion
 
 const cnx = mysql.createConnection({
-  host: "localhost",
-  user: "root",
-  database: "sena"
+  host: process.env.DB_HOST,
+  user: process.env.DB_USER,
+  password: process.env.DB_PASS,
+  database: process.env.DB_NAME,
 });
-
-/* connection.query("SELECT * FROM aprendiz", (err, results) => {
-  console.log(results); // results contains rows returned by server
-});
- */
 
 cnx.connect((error) => {
   if (error) {
